@@ -1,0 +1,592 @@
+[
+  {
+    "id": "339ed07e",
+    "name": "Aisha Khan",
+    "question": "Hi, I'm 19 and I got two Ds in my A-levels (48 UCAS points) and GCSE English and Maths. Can I join the HND in Computing?",
+    "created_minutes_ago": 400,
+    "drafted_at_minutes_ago": 399,
+    "error": "",
+    "status": "review",
+    "tools_used": [
+      "check_entry_requirements",
+      "search_policies"
+    ],
+    "draft": "Hi,\n\nThank you for your interest in the HND in Computing at Northbridge College London. \n\nThe standard entry requirements for the HND in Computing include 64 UCAS points, along with GCSE English and Maths at grade 4 (C) or above, and a minimum age of 18. Based on your current qualifications, you have 48 UCAS points and therefore do not currently meet the direct entry requirements for this course. \n\nAs this requires a staff decision regarding your options, a member of the admissions team will follow up with you soon. \n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call check_entry_requirements",
+        "detail": "{\"is_international\": false, \"age\": 19, \"course\": \"HND in Computing\", \"has_gcse_english_maths\": true, \"ucas_points\": 48}"
+      },
+      {
+        "kind": "result",
+        "title": "check_entry_requirements returned",
+        "detail": "{\"course\": \"HND in Computing\", \"verdict\": \"does not meet requirements\", \"reasons\": [\"needs 64 UCAS points (has 48)\"]}"
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"HND in Computing entry requirements alternative pathways\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Entry Requirements > HND in Computing]\n- 64 UCAS points (for example, two A-levels at grade C), or a Level 3 Diploma in IT pass.\n- GCSE English and Maths at grade 4 (C) or above.\n- Minimum age 18.\n- International students need IELTS 6.0 overall, with no band below 5.5.\n- Mature applicants (21+) without formal qualifications may be considered after an interview.\n\n[Entry Requirements > Python for Beginners]\n- No formal entry requirements. Students need their own laptop.\n\n[Northbridge College London — Courses 2027 > HND in Computing]\nA two-year Higher National Diploma covering software developme …"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "Here are the facts I found for your enquiry:\n\n• Course: HND in Computing\n• Your Qualifications: 48 UCAS points (two D grades at A-level) and GCSE English and Maths.\n• Requirement: The standard entry requirement for the HND in Computing is 64 UCAS points (plus GCSE English and Maths at grade 4/C or above, and age 18+). \n• Eligibility Check: Based on your current UCAS points, you do not meet the direct entry requirements for the HND in Computing (you currently have 48 points, and need 64). However, completing a lower-level qualification first (such as the Level 3 Diploma in IT) could provide an …"
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: high priority, entry requirements",
+        "detail": "Doesn't meet entry requirements for HND in Computing: needs 64 UCAS points (has 48)"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "entry_requirements",
+    "priority": "high",
+    "reasons": [
+      "Doesn't meet entry requirements for HND in Computing: needs 64 UCAS points (has 48)"
+    ],
+    "recommendation": "Confirm the shortfall, consider pointing them to a course they do qualify for, then approve.",
+    "summary": "Here are the facts I found for your enquiry:\n\n• Course: HND in Computing\n• Your Qualifications: 48 UCAS points (two D grades at A-level) and GCSE English and Maths.\n• Requirement: The standard entry requirement for the HND in Computing is 64 UCAS points (plus GCSE English and Maths at grade 4/C or above, and age 18+). \n• Eligibility Check: Based on your current UCAS points, you do not meet the direct entry requirements for the HND in Computing (you currently have 48 points, and need 64). However, completing a lower-level qualification first (such as the Level 3 Diploma in IT) could provide an alternative pathway to the course."
+  },
+  {
+    "id": "a0447e1b",
+    "name": "Li Wei",
+    "question": "How much are the fees for the Level 3 Diploma in IT for international students?",
+    "created_minutes_ago": 330,
+    "drafted_at_minutes_ago": 329,
+    "error": "",
+    "status": "approved",
+    "tools_used": [
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for your enquiry about the Level 3 Diploma in IT. \n\nThe tuition fee for an international student studying this course is £9,000 per year. \n\nIf you have any further questions or need a staff decision, a member of the admissions team will follow up with you.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"Level 3 Diploma in IT fees international students\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Northbridge College London — Courses 2027 > Level 3 Diploma in IT]\nA one-year course covering programming basics, networking, databases and digital skills.\nStart dates: September and January. Study mode: full-time, 3 days a week on campus.\nProgression: students who pass can apply to the HND in Computing.\n\n[Entry Requirements > Level 3 Diploma in IT]\n- GCSE English and Maths at grade 4 (C) or above, or equivalent.\n- Minimum age 16.\n- International students need IELTS 5.0 overall, or equivalent.\n\n[Fees, Deposits and Refunds > Tuition fees per year]\n- Level 3 Diploma in IT: £3,500 (home), £9,000 …"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "The tuition fee for an international student studying the Level 3 Diploma in IT is £9,000 per year."
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: medium priority, fees",
+        "detail": "International applicant: check visa and IELTS details"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "fees",
+    "priority": "medium",
+    "reasons": [
+      "International applicant: check visa and IELTS details"
+    ],
+    "recommendation": "Check the facts against the college documents, then approve.",
+    "summary": "The tuition fee for an international student studying the Level 3 Diploma in IT is £9,000 per year.",
+    "decided_by": "Priya Shah",
+    "decided_at_minutes_ago": 300,
+    "note": ""
+  },
+  {
+    "id": "f914f47b",
+    "name": "Daniel Okafor",
+    "question": "I'm 25. I don't have any A-levels but I do have GCSE English and Maths. Could I still get onto the HND in Computing?",
+    "created_minutes_ago": 260,
+    "drafted_at_minutes_ago": 259,
+    "error": "",
+    "status": "review",
+    "tools_used": [
+      "check_entry_requirements",
+      "search_policies"
+    ],
+    "draft": "Hi,\n\nThank you for getting in touch with us about the HND in Computing. \n\nStandard entry for this course requires 64 UCAS points (or a Level 3 Diploma in IT), alongside GCSE English and Maths at grade 4 (C) or above. However, as a mature applicant (21+) without traditional formal qualifications, it is possible for you to be considered after an interview. \n\nA member of the admissions team will follow up with you regarding the next steps.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call check_entry_requirements",
+        "detail": "{\"age\": 25, \"ucas_points\": 0, \"has_gcse_english_maths\": true, \"is_international\": false, \"course\": \"HND in Computing\"}"
+      },
+      {
+        "kind": "result",
+        "title": "check_entry_requirements returned",
+        "detail": "{\"course\": \"HND in Computing\", \"verdict\": \"possible, interview needed\", \"reasons\": [\"mature applicant without UCAS points: may be considered after interview\"]}"
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"HND in Computing entry requirements mature students interview\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Entry Requirements > HND in Computing]\n- 64 UCAS points (for example, two A-levels at grade C), or a Level 3 Diploma in IT pass.\n- GCSE English and Maths at grade 4 (C) or above.\n- Minimum age 18.\n- International students need IELTS 6.0 overall, with no band below 5.5.\n- Mature applicants (21+) without formal qualifications may be considered after an interview.\n\n[Entry Requirements > Python for Beginners]\n- No formal entry requirements. Students need their own laptop.\n\n[Entry Requirements > Level 3 Diploma in IT]\n- GCSE English and Maths at grade 4 (C) or above, or equivalent.\n- Minimum age 1 …"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "Here are the facts regarding your enquiry:\n\n• Course: HND in Computing\n• Your Profile: 25 years old (mature applicant), no A-levels/UCAS points, but holds GCSE English and Maths.\n• Entry Requirement Rule: Standard entry requires 64 UCAS points (or a Level 3 Diploma in IT) alongside GCSE English and Maths. However, as a mature applicant (21+) without formal qualifications, you may still be considered following an interview."
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: high priority, entry requirements",
+        "detail": "HND in Computing: possible, but an interview is needed: mature applicant without UCAS points: may be considered after interview"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "entry_requirements",
+    "priority": "high",
+    "reasons": [
+      "HND in Computing: possible, but an interview is needed: mature applicant without UCAS points: may be considered after interview"
+    ],
+    "recommendation": "Arrange an interview, then approve the reply.",
+    "summary": "Here are the facts regarding your enquiry:\n\n• Course: HND in Computing\n• Your Profile: 25 years old (mature applicant), no A-levels/UCAS points, but holds GCSE English and Maths.\n• Entry Requirement Rule: Standard entry requires 64 UCAS points (or a Level 3 Diploma in IT) alongside GCSE English and Maths. However, as a mature applicant (21+) without formal qualifications, you may still be considered following an interview."
+  },
+  {
+    "id": "c741abb4",
+    "name": "Maria Santos",
+    "question": "I'm 22, an international student with IELTS 5.5 and 70 UCAS points, plus GCSE English and Maths. Can I join the HND in Computing?",
+    "created_minutes_ago": 190,
+    "drafted_at_minutes_ago": 189,
+    "error": "",
+    "status": "review",
+    "tools_used": [
+      "check_entry_requirements",
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for your interest in the HND in Computing at Northbridge College London. \n\nBased on your current qualifications, you meet the age, GCSE, and UCAS point requirements for this course, but international students require an IELTS score of 6.0 overall (you currently have 5.5). \n\nBecause this involves an admissions decision, a member of the admissions team will follow up with you directly regarding your application. \n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call check_entry_requirements",
+        "detail": "{\"work_experience_years\": 0, \"has_gcse_english_maths\": true, \"course\": \"HND in Computing\", \"ielts\": 5.5, \"is_international\": true, \"age\": 22, \"ucas_points\": 70}"
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"HND in Computing entry requirements international students English language IELTS\"}"
+      },
+      {
+        "kind": "result",
+        "title": "check_entry_requirements returned",
+        "detail": "{\"course\": \"HND in Computing\", \"verdict\": \"does not meet requirements\", \"reasons\": [\"needs IELTS 6.0 (has 5.5)\"]}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Entry Requirements > HND in Computing]\n- 64 UCAS points (for example, two A-levels at grade C), or a Level 3 Diploma in IT pass.\n- GCSE English and Maths at grade 4 (C) or above.\n- Minimum age 18.\n- International students need IELTS 6.0 overall, with no band below 5.5.\n- Mature applicants (21+) without formal qualifications may be considered after an interview.\n\n[Entry Requirements > Level 3 Diploma in IT]\n- GCSE English and Maths at grade 4 (C) or above, or equivalent.\n- Minimum age 16.\n- International students need IELTS 5.0 overall, or equivalent.\n\n[Entry Requirements > Foundation Year in …"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "• Course: HND in Computing\n• Applicant Age: 22 (International student)\n• Qualifications: 70 UCAS points, GCSE English and Maths, IELTS 5.5\n• Entry Requirement Check Verdict: Does not meet requirements (needs IELTS 6.0, but has 5.5)"
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: high priority, entry requirements",
+        "detail": "Doesn't meet entry requirements for HND in Computing: needs IELTS 6.0 (has 5.5); International applicant: check visa and IELTS details"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "entry_requirements",
+    "priority": "high",
+    "reasons": [
+      "Doesn't meet entry requirements for HND in Computing: needs IELTS 6.0 (has 5.5)",
+      "International applicant: check visa and IELTS details"
+    ],
+    "recommendation": "Confirm the shortfall, consider pointing them to a course they do qualify for, then approve.",
+    "summary": "• Course: HND in Computing\n• Applicant Age: 22 (International student)\n• Qualifications: 70 UCAS points, GCSE English and Maths, IELTS 5.5\n• Entry Requirement Check Verdict: Does not meet requirements (needs IELTS 6.0, but has 5.5)"
+  },
+  {
+    "id": "78eb5296",
+    "name": "Sam Patel",
+    "question": "If my student visa is refused, do I get my £2,000 deposit back?",
+    "created_minutes_ago": 140,
+    "drafted_at_minutes_ago": 139,
+    "error": "",
+    "status": "review",
+    "tools_used": [
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for your enquiry. \n\nBased on the college's refund policy, international student deposits are refunded in full upon providing proof of a visa refusal. Please note that all refund decisions are made by the Finance Office rather than admissions staff, so a member of the admissions team will follow up with you regarding the next steps.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"visa refusal deposit refund\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Fees, Deposits and Refunds > Refund policy]\n- Within 14 days of accepting an offer: full refund of any payments.\n- After 14 days but before the course starts: refund minus a £250 administration fee.\n- After the course starts: no refund, except in exceptional circumstances approved by the Head of Admissions.\n- Visa refusals: international deposits are refunded in full on proof of refusal.\nAll refund decisions are made by the Finance Office, not by admissions staff.\n\n[Fees, Deposits and Refunds > Deposits]\nInternational students must pay a £2,000 deposit before a CAS can be issued.\nHome student …"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "Based on the college's refund policy, international student deposits (£2,000) are refunded in full upon providing proof of a visa refusal. \n\nPlease note that all refund decisions are made by the Finance Office rather than admissions staff."
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: high priority, refunds",
+        "detail": "Refund question: only the Finance Office can decide refunds; International applicant: check visa and IELTS details"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "refunds",
+    "priority": "high",
+    "reasons": [
+      "Refund question: only the Finance Office can decide refunds",
+      "International applicant: check visa and IELTS details"
+    ],
+    "recommendation": "Forward to the Finance Office and make sure the reply doesn't promise a refund.",
+    "summary": "Based on the college's refund policy, international student deposits (£2,000) are refunded in full upon providing proof of a visa refusal. \n\nPlease note that all refund decisions are made by the Finance Office rather than admissions staff."
+  },
+  {
+    "id": "e8f63acf",
+    "name": "Hannah Morris",
+    "question": "I'm 15 with no qualifications yet. Can I join Python for Beginners, and how much does it cost?",
+    "created_minutes_ago": 95,
+    "drafted_at_minutes_ago": 94,
+    "error": "",
+    "status": "approved",
+    "tools_used": [
+      "search_policies",
+      "check_entry_requirements"
+    ],
+    "draft": "Hi,\n\nThank you for your interest in Northbridge College London! \n\nThere are no formal entry requirements for the *Python for Beginners* course, though students do need their own laptop. The tuition fee is £180 for the full 6-week course.\n\nA member of the admissions team will follow up with you shortly.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"Python for Beginners fees\"}"
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call check_entry_requirements",
+        "detail": "{\"age\": 15, \"work_experience_years\": 0, \"course\": \"Python for Beginners\", \"is_international\": false, \"has_gcse_english_maths\": false, \"ucas_points\": 0}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Northbridge College London — Courses 2027 > Python for Beginners (short course)]\nA 6-week evening course, one evening a week, for complete beginners. Online only.\nStart dates: every month.\n\n[Entry Requirements > Python for Beginners]\n- No formal entry requirements. Students need their own laptop.\n\n[Fees, Deposits and Refunds > Tuition fees per year]\n- Level 3 Diploma in IT: £3,500 (home), £9,000 (international)\n- HND in Computing: £6,000 (home), £11,500 (international)\n- Foundation Year in Business: £5,500 (home), £10,500 (international)\n- Python for Beginners: £180 for the full course"
+      },
+      {
+        "kind": "result",
+        "title": "check_entry_requirements returned",
+        "detail": "{\"course\": \"Python for Beginners\", \"verdict\": \"meets requirements\", \"reasons\": []}"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "Here are the facts regarding your enquiry:\n\n• Course Eligibility: You meet the entry requirements for the *Python for Beginners* course, as there are no formal entry requirements (though you do need your own laptop).\n• Cost: The tuition fee for the *Python for Beginners* course is £180 for the full 6-week course."
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: medium priority, entry requirements",
+        "detail": "Meets entry requirements for Python for Beginners; The reply promises a follow-up from staff"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "entry_requirements",
+    "priority": "medium",
+    "reasons": [
+      "Meets entry requirements for Python for Beginners",
+      "The reply promises a follow-up from staff"
+    ],
+    "recommendation": "Check the reply, approve it and invite them to apply.",
+    "summary": "Here are the facts regarding your enquiry:\n\n• Course Eligibility: You meet the entry requirements for the *Python for Beginners* course, as there are no formal entry requirements (though you do need your own laptop).\n• Cost: The tuition fee for the *Python for Beginners* course is £180 for the full 6-week course.",
+    "decided_by": "Priya Shah",
+    "decided_at_minutes_ago": 120,
+    "note": ""
+  },
+  {
+    "id": "e86dbb53",
+    "name": "Tom Reed",
+    "question": "I want to make a complaint. I applied over three weeks ago and nobody has replied to my emails.",
+    "created_minutes_ago": 50,
+    "drafted_at_minutes_ago": 49,
+    "error": "",
+    "status": "review",
+    "tools_used": [
+      "search_policies",
+      "search_policies",
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for contacting us. \n\nComplaints are handled under the college complaints procedure, and they must be acknowledged within 2 working days and passed to the Student Services Manager. \n\nA member of the admissions team will follow up with you regarding this matter. In the meantime, you can check your application status by logging in to the applicant portal. \n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"complaints process procedure\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[How to Apply > Complaints]\nComplaints are handled under the college complaints procedure. They must be acknowledged within 2 working days and passed to the Student Services Manager."
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"complaint response time escalation\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Northbridge College London — Courses 2027 > Level 3 Diploma in IT]\nA one-year course covering programming basics, networking, databases and digital skills.\nStart dates: September and January. Study mode: full-time, 3 days a week on campus.\nProgression: students who pass can apply to the HND in Computing.\n\n[Northbridge College London — Courses 2027 > HND in Computing]\nA two-year Higher National Diploma covering software development, data, cyber security and AI fundamentals.\nStart dates: September only. Study mode: full-time, 2 days a week on campus plus online learning.\nProgression: graduates …"
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"complaints procedure email time limit\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[How to Apply > Complaints]\nComplaints are handled under the college complaints procedure. They must be acknowledged within 2 working days and passed to the Student Services Manager.\n\n[How to Apply > Steps]\n1. Complete the online application form on the college website.\n2. Upload copies of qualification certificates and photo ID.\n3. International students also upload their passport and English test results.\n4. Admissions reviews applications within 10 working days.\n5. Some courses require a short interview (HND mature applicants, Foundation Year applicants with work experience instead of UCAS …"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "Here are the facts regarding your enquiry:\n\n• College Complaint Policy: Complaints must be acknowledged within 2 working days and are escalated to the Student Services Manager. Since you applied over three weeks ago and have not received a reply, this falls outside the standard timeframe.\n• Standard Admissions Review Time: Admissions normally reviews applications within 10 working days. \n• Next Steps: You can check your application status by logging into the applicant portal. Your complaint will be logged and passed to the Student Services Manager for review."
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: high priority, complaint",
+        "detail": "Complaint: needs a personal response from staff"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "complaint",
+    "priority": "high",
+    "reasons": [
+      "Complaint: needs a personal response from staff"
+    ],
+    "recommendation": "Acknowledge within 2 working days and pass to the Student Services Manager (complaints procedure).",
+    "summary": "Here are the facts regarding your enquiry:\n\n• College Complaint Policy: Complaints must be acknowledged within 2 working days and are escalated to the Student Services Manager. Since you applied over three weeks ago and have not received a reply, this falls outside the standard timeframe.\n• Standard Admissions Review Time: Admissions normally reviews applications within 10 working days. \n• Next Steps: You can check your application status by logging into the applicant portal. Your complaint will be logged and passed to the Student Services Manager for review."
+  },
+  {
+    "id": "91080774",
+    "name": "Yusuf Ali",
+    "question": "How do I apply for the Foundation Year in Business, and how long until I hear back?",
+    "created_minutes_ago": 20,
+    "drafted_at_minutes_ago": 19,
+    "error": "",
+    "status": "review",
+    "tools_used": [
+      "search_policies",
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for your interest in the Foundation Year in Business at Northbridge College London. \n\nTo apply, please follow these steps:\n1. Complete the online application form on our college website.\n2. Upload copies of your qualification certificates and photo ID. (If you are an international student, please also upload your passport and English test results). \n3. Please note that Foundation Year applicants applying with work experience instead of UCAS points may be required to attend a short interview.\n\nThe admissions team reviews applications within 10 working days, and you can also check your application status at any time by logging in to the applicant portal. If anything requires a staff decision, a member of the admissions team will follow up with you.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "model": "gemini-3.5-flash-lite",
+    "trace": [
+      {
+        "kind": "start",
+        "title": "Enquiry received",
+        "detail": "Sent to the LangGraph agent node"
+      },
+      {
+        "kind": "model",
+        "title": "Model: gemini-3.5-flash-lite",
+        "detail": ""
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"Foundation Year in Business how to apply offers timelines\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[Northbridge College London — Courses 2027 > Foundation Year in Business]\nA one-year course preparing students for a business degree, covering management, marketing, finance and study skills.\nStart dates: September and February. Study mode: full-time, 3 days a week on campus.\n\n[Entry Requirements > Foundation Year in Business]\n- 48 UCAS points, or relevant work experience of 2+ years.\n- Minimum age 18.\n- International students need IELTS 5.5 overall.\n\n[Fees, Deposits and Refunds > Tuition fees per year]\n- Level 3 Diploma in IT: £3,500 (home), £9,000 (international)\n- HND in Computing: £6,000 ( …"
+      },
+      {
+        "kind": "call",
+        "title": "Agent decided to call search_policies",
+        "detail": "{\"query\": \"how to apply admissions process timeframe hear back offer\"}"
+      },
+      {
+        "kind": "result",
+        "title": "search_policies returned",
+        "detail": "[How to Apply > Steps]\n1. Complete the online application form on the college website.\n2. Upload copies of qualification certificates and photo ID.\n3. International students also upload their passport and English test results.\n4. Admissions reviews applications within 10 working days.\n5. Some courses require a short interview (HND mature applicants, Foundation Year applicants with work experience instead of UCAS points).\n6. Successful applicants receive an offer by email.\n\n[How to Apply > Offers]\nOnly the Head of Admissions can issue, change or withdraw an offer.\n\n[How to Apply > Checking appl …"
+      },
+      {
+        "kind": "think",
+        "title": "Agent decided it had enough facts",
+        "detail": "Here are the facts regarding the application process and response times for the Foundation Year in Business:\n\n• How to apply: \n  1. Complete the online application form on the Northbridge College website.\n  2. Upload copies of your qualification certificates and photo ID (international students must also upload their passport and English test results).\n  3. Note that Foundation Year applicants applying with work experience (instead of UCAS points) may be required to attend a short interview.\n• Response time: The admissions team reviews applications within 10 working days, after which successfu …"
+      },
+      {
+        "kind": "draft",
+        "title": "write_reply node drafted the email",
+        "detail": "Uses only the facts gathered above"
+      },
+      {
+        "kind": "triage",
+        "title": "Triage: medium priority, application",
+        "detail": "The reply promises a follow-up from staff"
+      },
+      {
+        "kind": "wait",
+        "title": "Paused for a human",
+        "detail": "Nothing is sent until a member of staff approves"
+      }
+    ],
+    "category": "application",
+    "priority": "medium",
+    "reasons": [
+      "The reply promises a follow-up from staff"
+    ],
+    "recommendation": "Check the facts against the college documents, then approve.",
+    "summary": "Here are the facts regarding the application process and response times for the Foundation Year in Business:\n\n• How to apply: \n  1. Complete the online application form on the Northbridge College website.\n  2. Upload copies of your qualification certificates and photo ID (international students must also upload their passport and English test results).\n  3. Note that Foundation Year applicants applying with work experience (instead of UCAS points) may be required to attend a short interview.\n• Response time: The admissions team reviews applications within 10 working days, after which successful applicants will receive an offer by email. You can also check your application status at any time by logging into the applicant portal."
+  }
+]

@@ -1,0 +1,17 @@
+# Secrets: never commit the real API key
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Live data written by the app (the demo is seeded from demo_seed.json instead)
+enquiries.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

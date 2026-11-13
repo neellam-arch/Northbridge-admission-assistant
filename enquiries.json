@@ -1,0 +1,110 @@
+[
+  {
+    "id": "6037b8e5",
+    "name": "Test Student",
+    "question": "How much are the fees for the Level 3 Diploma in IT for international students?",
+    "created": "2026-11-13T20:54:25",
+    "status": "approved",
+    "tools_used": [
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for reaching out to us.\n\nThe tuition fee for international students for the Level 3 Diploma in IT is £9,000 per year. \n\nPlease feel free to get in touch if you have any further questions.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "error": "",
+    "category": "fees",
+    "priority": "medium",
+    "reasons": [
+      "International applicant: check visa and IELTS details"
+    ],
+    "recommendation": "Check the facts against the college documents, then approve.",
+    "summary": "",
+    "decided_at": "2026-11-13T20:54:25",
+    "decided_by": "Admissions staff"
+  },
+  {
+    "id": "76b32b44",
+    "name": "SAmra",
+    "question": "I'm 19 with 48 UCAS points and GCSE English and Maths. Can I join the HND in Computing?",
+    "created": "2026-11-13T20:56:41",
+    "status": "review",
+    "tools_used": [
+      "check_entry_requirements",
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for your interest in the HND in Computing at Northbridge College London. \n\nWhile you meet the age requirement and have GCSE English and Maths, the standard entry requirement for this course is 64 UCAS points (or a Level 3 Diploma in IT pass), and currently you have 48 UCAS points. \n\nBecause this requires a staff decision regarding your application, a member of the admissions team will follow up with you soon.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "error": "",
+    "model": "gemini-3.5-flash-lite",
+    "category": "entry_requirements",
+    "priority": "medium",
+    "reasons": [
+      "The reply promises a follow-up from staff"
+    ],
+    "recommendation": "Check the facts against the college documents, then approve.",
+    "summary": ""
+  },
+  {
+    "id": "6f14c23a",
+    "name": "SAmra",
+    "question": "please help me with refund",
+    "created": "2026-11-13T21:01:01",
+    "status": "review",
+    "tools_used": [
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for reaching out to us. \n\nTo help you understand our refund process, here are the key facts regarding our refund policy:\n• Within 14 days of accepting an offer: You will receive a full refund of any payments made.\n• After 14 days but before the course starts: You will receive a refund minus a £250 administration fee.\n• After the course starts: No refund is given, except in exceptional circumstances approved by the Head of Admissions.\n• Visa refusals: International deposits are refunded in full upon providing proof of visa refusal.\n\nPlease note that all refund decisions are made by the Finance Office, not by admissions staff. A member of the admissions team will follow up with you regarding your request.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "error": "",
+    "model": "gemini-3.5-flash-lite",
+    "category": "refunds",
+    "priority": "high",
+    "reasons": [
+      "Refund question: only the Finance Office can decide refunds"
+    ],
+    "recommendation": "Forward to the Finance Office and make sure the reply doesn't promise a refund.",
+    "summary": ""
+  },
+  {
+    "id": "e2db2e2c",
+    "name": "SAmra",
+    "question": "If I withdraw after two weeks, can I get a refund?",
+    "created": "2026-11-13T21:01:09",
+    "status": "review",
+    "tools_used": [
+      "search_policies"
+    ],
+    "draft": "Hi there,\n\nThank you for your enquiry. \n\nAccording to college policy, after the course starts there are no refunds, except in exceptional circumstances approved by the Head of Admissions. Please note that all refund decisions are made by the Finance Office rather than admissions staff. \n\nA member of the admissions team will follow up with you shortly.\n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "error": "",
+    "model": "gemini-3.5-flash-lite",
+    "category": "refunds",
+    "priority": "high",
+    "reasons": [
+      "Refund question: only the Finance Office can decide refunds"
+    ],
+    "recommendation": "Forward to the Finance Office and make sure the reply doesn't promise a refund.",
+    "summary": ""
+  },
+  {
+    "id": "b65739ec",
+    "name": "Triage Test",
+    "question": "I am 22, an international student from Pakistan with IELTS 5.5 and 70 UCAS points. Can I join the HND in Computing?",
+    "created": "2026-11-13T21:08:52",
+    "status": "rejected",
+    "tools_used": [
+      "check_entry_requirements",
+      "search_policies"
+    ],
+    "draft": "Dear Student,\n\nThank you for your interest in the HND in Computing at Northbridge College London. \n\nBased on your current profile, you have 70 UCAS points, which meets the academic requirement. However, international students applying for the HND in Computing need an IELTS score of 6.0 overall (with no band below 5.5), and your current IELTS score is 5.5. \n\nBecause this requires a staff decision regarding your eligibility, a member of the admissions team will follow up with you soon. \n\nBest regards,\n\nAdmissions Team, Northbridge College London",
+    "error": "",
+    "model": "gemini-3.5-flash-lite",
+    "drafted_at": "2026-11-13T21:09:27",
+    "category": "entry_requirements",
+    "priority": "high",
+    "reasons": [
+      "Doesn't meet entry requirements for HND in Computing: needs IELTS 6.0 (has 5.5)",
+      "International applicant: check visa and IELTS details"
+    ],
+    "recommendation": "Confirm the shortfall, consider pointing them to a course they do qualify for, then approve.",
+    "summary": "Here are the facts regarding your enquiry to join the HND in Computing at Northbridge College London:\n\n* **Course Entry Requirements:** The HND in Computing requires 64 UCAS points, GCSE English and Maths at grade 4 (C) or above, a minimum age of 18, and for international students, an **IELTS score of 6.0 overall** (with no band below 5.5).\n* **Your Profile:** You are 22 years old, an international student from Pakistan, with 70 UCAS points and an IELTS score of 5.5.\n* **Eligibility Verdict:** According to the entry requirements check, you currently **do not meet the requirements** because your IELTS score is 5.5, whereas 6.0 is required for international students on this course.",
+    "decided_at": "2026-11-13T21:09:28",
+    "decided_by": "Tester",
+    "note": "test reject"
+  }
+]

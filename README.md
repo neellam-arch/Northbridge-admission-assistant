@@ -2,7 +2,8 @@
 
 An agentic system for **Northbridge College London** (a fictional college) that reads student admissions enquiries written in plain English, looks up the college's real policies, checks eligibility with fixed rules, drafts a reply, triages it by risk, and **pauses for a member of staff to approve it** before anything is sent.
 
-**Live demo:** _add your Render link here_ (free hosting: the first visit after a quiet spell can take about a minute to wake up)
+**Live demo:** https://northbridge-admissions-agent.onrender.com
+
 
 ![Landing page](screenshots/home.png)
 

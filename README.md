@@ -208,4 +208,4 @@ Free Render services sleep after about 15 minutes without visitors and take abou
 
 ## Author
 
-_Your name_: built as an AI engineering portfolio project. _Add your LinkedIn / GitHub links here._
+_Neelam Fatima_: built as an AI engineering portfolio project. _(https://www.linkedin.com/in/neelam-fatimah/) / (https://github.com/neellam-arch/Rayners-College-RAG-)_

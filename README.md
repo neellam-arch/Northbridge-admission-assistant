@@ -1,5 +1,5 @@
 # Admissions Agent: AI Enquiry Assistant with Human Review
-
+F
 An agentic system for **Northbridge College London** (a fictional college) that reads student admissions enquiries written in plain English, looks up the college's real policies, checks eligibility with fixed rules, drafts a reply, triages it by risk, and **pauses for a member of staff to approve it** before anything is sent.
 
 **Live demo:** https://northbridge-admissions-agent.onrender.com
@@ -182,8 +182,8 @@ admissions-agent/
 ## Running locally
 
 ```bash
-git clone https://github.com/<your-username>/admissions-agent.git
-cd admissions-agent
+git clone https://github.com/neellam-arch/Northbridge-admission-assistant.git
+cd Northbridge-admission-assistant
 python -m venv venv
 venv\Scripts\activate            # Windows   (macOS/Linux: source venv/bin/activate)
 pip install -r requirements.txt
@@ -209,4 +209,4 @@ Free Render services sleep after about 15 minutes without visitors and take abou
 
 ## Author
 
-_Neelam Fatima_: built as an AI engineering portfolio project. _(https://www.linkedin.com/in/neelam-fatimah/) / (https://github.com/neellam-arch/Rayners-College-RAG-)_
+_Neelam Fatima_: built as an AI engineering portfolio project. _https://www.linkedin.com/in/neelam-fatimah/ / _https://github.com/neellam-arch/Rayners-College-RAG-_
